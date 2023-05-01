@@ -1,0 +1,206 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Projeto de Site</title>
+    <link rel="stylesheet" type="text/css" href="./css/main.css">
+    <link rel="stylesheet" type="text/css" href="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css"/>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Hind:wght@300&display=swap" rel="stylesheet">
+
+<body>
+    <header class="menu_principal"> <!-- contains the first section of the page (logo and socials)-->
+        <main>
+                <div class="header-1"> 
+                    <div class="logo">
+                        <img src="./img/logo.png" alt="">
+                    </div>
+                    <div class="redes_sociais"> <!--put the image without the link "<a>", because it's just a model of the hompage -->
+                        <img src="./img/seila.png" alt="rede-social1">
+                        <img src="./img/facebook.png" alt="facebook">
+                        <img src="./img/twitter.png" alt="twitter">
+                        <img src="./img/linkedin.png" alt="linkedin">
+                    </div> 
+              </div>              
+        </main>        
+    </header>
+    <main class="holder"> <!-- second section of the page. Hold the menu with links and the search engine-->
+        <div class="header-2">
+            <div class="menu_topics">
+                <ul>
+                    <li><a href="Home">Home</a></li>
+                    <li><a href="About Us">About Us</a></li>
+                    <li><a href="Service">Service</a></li>
+                    <li><a href="Pages">Pages</a></li>
+                    <li><a href="Blog">Blog</a></li>
+                    <li><a href="Contac Us">Contac Us</a></li>                
+                </ul>
+            </div>
+            <div class="search"> <!-- search input-->
+                <input placeholder="Search here!" type="text">
+            </div>                         
+        </div>
+    </main>
+    <div class="image_holder">
+        <div class="main_slide"> <!-- slide made with javascript, got the model in https://kenwheeler.github.io/slick/-->          
+            <img src="./img/slider-1.png" alt="">
+            <img src="./img/slider-1.png" alt="">
+            <img src="./img/slider-1.png" alt="">
+            <img src="./img/slider-1.png" alt="">
+            <img src="./img/slider-1.png" alt="">            
+        </div>
+    </div>
+    <main class="content-1"> <!-- fourth section of the page, the lorems and three pictures -->
+        <div class="big_text">
+            <h1 class="big_lorem">
+                Lorem Ipsum is <strong style="color: #646464;">simply dummy</strong> of the printing.
+            </h1>
+            <p class="little_lorem">
+                Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500's<br>
+                when a unknown printer took a galley of type and scrambled it to make atype specimen book.<br>            
+                It has survived not only five centuries. 
+            </p>
+        </div>
+        <div class="content-1_2"> <!--three pictures with text underneath-->
+            <div class="i-mac">
+                <img src="./img/imac-1.png" alt="">
+                <h3><strong style="color: #646464;">Lorem Ipsum</strong> is simply</h3>
+                <p>Lorem Ipsum is simply dummy text of the printing<br> and typesetting of the industry. Lorem<br> Ipsum has been</p>
+
+            </div>
+            <div class="desenho">
+                <img src="./img/desenho.png" alt="">
+                <h3><strong style="color: #646464;">Lorem Ipsum</strong> is simply</h3>
+                <p>Lorem Ipsum is simply dummy text of the printing<br> and typesetting of the industry. Lorem<br> Ipsum has been</p>
+
+            </div>
+            <div class="fotinha">
+                <img src="./img/fotinha.png" alt="">
+                <h3><strong style="color: #646464;">Lorem Ipsum</strong> is simply</h3>
+                <p>Lorem Ipsum is simply dummy text of the printing<br> and typesetting of the industry. Lorem<br> Ipsum has been</p>
+
+            </div>            
+        </div>
+    </main>
+    <main class="content-2">
+        <div class="gray_background_tip"> <!--tip of the gray background-->
+            <img src="./img/setinha.png" alt="">
+        </div>
+        <div class="gray_background">
+                <div class="first_row"> <!-- first row of 3 pictures-->
+                    <div class="pictures-1"> <!--since i'm a newbie, all the 6 pictures are divided in it's own div's, with the text included-->
+                        <img src="./img/img1.png" alt="" style="width: 333px; height: 194px;"> <!-- put all the pictures with the same height and width scales-->
+                        <p><strong>Lorem Ipsum is simply</strong></p>
+                        <p>Lorem Ipsum is simply dummy text of the<br> printing and typesetting of the</p>                      
+                    </div>
+                    <div class="pictures-2"> 
+                        <img src="./img/img2.png" alt="" style="width: 333px; height: 194px;"> 
+                        <p><strong>Lorem Ipsum is simply</strong></p>
+                        <p>Lorem Ipsum is simply dummy text of the<br> printing and typesetting of the</p>                      
+                    </div>
+                    <div class="pictures-3"> 
+                        <img src="./img/img3.png" alt="" style="width: 333px; height: 194px;"> 
+                        <p><strong>Lorem Ipsum is simply</strong></p>
+                        <p>Lorem Ipsum is simply dummy text of the<br> printing and typesetting of the</p>                      
+                    </div>                  
+                </div>
+                <div class="second_row"> <!-- second row of 3 pictures-->
+                    <div class="pictures-4"> 
+                        <img src="./img/img4.png" alt="" style="width: 333px; height: 194px;"> 
+                        <p><strong>Lorem Ipsum is simply</strong></p>
+                        <p>Lorem Ipsum is simply dummy text of the<br> printing and typesetting of the</p>                      
+                    </div>
+                    <div class="pictures-5"> 
+                        <img src="./img/img5.png" alt="" style="width: 333px; height: 194px;"> 
+                        <p><strong>Lorem Ipsum is simply</strong></p>
+                        <p>Lorem Ipsum is simply dummy text of the<br> printing and typesetting of the</p>                      
+                    </div>
+                    <div class="pictures-6"> 
+                        <img src="./img/img6.png" alt="" style="width: 333px; height: 194px;"> 
+                        <p><strong>Lorem Ipsum is simply</strong></p>
+                        <p>Lorem Ipsum is simply dummy text of the<br> printing and typesetting of the</p>                      
+                    </div>
+                </div>
+
+        </div>
+    </main>
+    <main class="footer-1"> <!--white footer with logos-->
+        <div class="footer-logos">
+            <img src="./img/logo1.png" alt="">
+            <img src="./img/logo-2.png" alt="">
+            <img src="./img/logo-3.png" alt="">
+            <img src="./img/logo-4.png" alt="">            
+        </div>
+    </main>
+    <main class="footer-2"> <!--light gray footer with posts, tags and adress-->
+        <div class="informative_holder">
+            <div class="informative_text">
+                <h3>Populr Post</h3>
+                <p>Lorem Ipsum is simply dummy
+                text of the printing.</p>
+                <p class="clock">25-September 2013</p> <!--didn't manage to get that clock aligned with the date 'cause its a background image-->
+                <hr>
+                <p>Lorem Ipsum is simply dummy
+                    text of the printing.</p>
+                <p class="clock">13-July 2013</p>
+    
+            </div>
+            <div class="informative_text">
+                <h3>Tags</h3>
+                <p>apps <b>blog</b> blogroll christmas cms coda concert <b>daily
+                    design</b> develop dialog drinks envato food fun gallery 
+                    gift holiday icon <b>illustration</b> ipad iphone journal 
+                    <b>jquery</b> label link marketing mobile motion music photo  
+                    <b>profession</b> quotation recipes show sound strategy tv 
+                    typography <b>video</b></p>
+    
+            </div>
+            <div class="informative_text">
+                <h3>A little about us</h3>
+                <p>There are many variations of passages of Lorem 
+                    Ipsum available, but the majority have suffered 
+                    alteration in some form, by injected humour, or 
+                    randomised words which don't look even slightly 
+                    believable. 
+
+                    If you are going to use a passage of Lorem Ipsum, 
+                    you need to be sure there isn't anything.</p>
+    
+            </div>
+            <div class="informative_text">
+                <h3>Get in touch</h3>
+                <p>Lorem Ipsum is simply dummy
+                    of the printing and typesetting industry. 
+                    Lorem Ipsum has been the industry's standard dummy text 
+                    ever since.</p>
+                <p class="location">Texas, Us</p>
+                <p class="e-mail">email@email.com</p>
+                <p class="phone">890-09880-45590</p>
+    
+            </div>
+        </div>       
+    </main>
+    <main class="footer-3"> <!--dark gray footer with copywrite and social media-->
+        <div class="holder-3">
+            <div class="copyright">
+                <p>© 2013 Web world. All rights reserved. Theme by cssautther</p>
+            </div>
+            <div class="social-2">
+                <img src="./img/seila.png" alt="rede-social1">
+                <img src="./img/facebook.png" alt="facebook">
+                <img src="./img/twitter.png" alt="twitter">
+                <img src="./img/linkedin.png" alt="linkedin">
+            </div>
+        </div>
+    </main>
+  
+   
+    <script type="text/javascript" src="https://code.jquery.com/jquery-1.11.0.min.js"></script>
+    <script type="text/javascript" src="https://code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
+    <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
+    <script type="text/javascript" src="./JS/main.js"></script>       
+</body>
+</html>
